@@ -1,20 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-""" setup.py for replit_pafy.
+""" setup.py for pafy.
 
-https://github.com/Azzy380/pafy-replit-friendly
+https://github.com/mps-youtube/pafy
 
 python setup.py sdist bdist_wheel
 
 """
 
 from setuptools import setup
-from replit_pafy import __version__
+from pafy import __version__
 
 setup(
-    name='replit_pafy',
-    packages=['replit_pafy'],
+    name='pafy-tmsl',
+    packages=['pafy'],
     scripts=['scripts/ytdl'],
     version=__version__,
     description="Retrieve YouTube content and metadata",

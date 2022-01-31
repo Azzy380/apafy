@@ -1,3 +1,6 @@
+This is forked pafy with fixed dislike count error for replit to avoid importing wrong library. 
+
+
 .. image:: https://img.shields.io/pypi/v/Pafy.svg
     :target: https://pypi.python.org/pypi/pafy
 .. image:: https://img.shields.io/pypi/dm/Pafy.svg

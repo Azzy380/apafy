@@ -5,7 +5,7 @@
 from __future__ import unicode_literals
 from functools import wraps
 import hashlib
-import pafy
+import replit_pafy
 import time
 import os
 import sys

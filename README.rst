@@ -13,6 +13,9 @@
     :target: http://pythonwheels.com/
     :alt: Wheel Status
 
+Pafy library, but with fixed dislike count error. 
+Also importing this package will help in problem with replit's wrong package import. 
+
 Features
 --------
 

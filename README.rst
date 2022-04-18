@@ -24,7 +24,7 @@ Features
 - Command line tool (ytdl) for downloading directly from the command line
 - Retrieve the URL to stream the video in a player such as vlc or mplayer
 - Works with age-restricted videos and non-embeddable videos
-- Small, standalone, single importable module file (pafy.py)
+- Small, standalone, single importable module file (apafy.py)
 - Select highest quality stream for download or streaming
 - Download video only (no audio) in m4v or webm format
 - Download audio only (no video) in ogg or m4a format

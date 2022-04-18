@@ -14,7 +14,7 @@
     :alt: Wheel Status
 
 Pafy library, but with fixed dislike count error. 
-Also importing this package will help in problem with replit's wrong package import. 
+Also importing this package will help in problem with replit's wrong package import. If you don't use replit it is recommended to use pafy-tsml. 
 
 Features
 --------
@@ -37,6 +37,8 @@ Documentation
 -------------
 
 Full documentation is available at http://pythonhosted.org/pafy
+NOTICE: Remember that name "pafy" has been changed to "apafy" to fix poetry downloading wrong library (version with an dislike count error). 
+NOTICE: This library is NOT maintained anymore. 
 
 Usage Examples
 --------------
@@ -46,14 +48,14 @@ Here is how to use the module in your own python code.  For command line tool
 
 .. code-block:: pycon
 
-    >>> import pafy
+    >>> import apafy
 
 create a video instance from a YouTube url:
 
 .. code-block:: pycon
 
     >>> url = "https://www.youtube.com/watch?v=bMt47wvK6u0"
-    >>> video = pafy.new(url)
+    >>> video = apafy.new(url)
 
 get certain attributes:
 
@@ -220,11 +222,11 @@ show all media types for a video (video+audio, video-only and audio-only):
 Installation
 ------------
 
-pafy can be installed using `pip <http://www.pip-installer.org>`_:
+apafy can be installed using `pip <http://www.pip-installer.org>`_:
 
 .. code-block:: bash
 
-    $ [sudo] pip install pafy
+    $ [sudo] pip install apafy
 
 or use a `virtualenv <http://virtualenv.org>`_ if you don't want to install it system-wide:
 
@@ -232,7 +234,7 @@ or use a `virtualenv <http://virtualenv.org>`_ if you don't want to install it s
 
     $ virtualenv venv
     $ source venv/bin/activate
-    $ pip install pafy
+    $ pip install apafy
 
 
 Command Line Tool (ytdl) Usage
